@@ -23,6 +23,12 @@
 							<form method="POST" class="needs-validation" novalidate="" autocomplete="off">
 								<div class="mb-3">
 									<label class="mb-2 text-muted" for="name">Name</label>
+									<div class="mb-3">
+									<label class="mb-2 text-muted" for="email">Nama Pengguna</label>
+									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+									<div class="invalid-feedback">
+										Email is invalid
+									</div>
 									<input id="name" type="text" class="form-control" name="name" value="" required autofocus>
 									<div class="invalid-feedback">
 										Name is required	
@@ -70,7 +76,7 @@
 		</div>
 	</section>
 
-<form id="loginForm">
+<form id="RegisterForm">
     <h3>Silahkan Login</h3>
   <label for="username">Nama Pengguna</label>
     <input type="text" id="username" placeholder="Nama Pengguna.." required="required">
